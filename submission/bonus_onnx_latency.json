@@ -1,0 +1,87 @@
+{
+  "cpu": "Intel(R) Core(TM) i9-9920X CPU @ 3.50GHz",
+  "threads": 12,
+  "onnxruntime": "1.23.2",
+  "rows": [
+    {
+      "Ảnh": "bus.jpg",
+      "Cấu hình": "one-to-many + NMS, conf 0.25",
+      "preprocess (ms)": 2.88,
+      "ONNX inference (ms)": 33.9,
+      "postprocess (ms)": 15.97,
+      "tổng (ms)": 52.76,
+      "ứng viên qua conf": 48,
+      "số box": 5
+    },
+    {
+      "Ảnh": "bus.jpg",
+      "Cấu hình": "one-to-many + NMS, conf 0.001",
+      "preprocess (ms)": 2.86,
+      "ONNX inference (ms)": 34.57,
+      "postprocess (ms)": 23.45,
+      "tổng (ms)": 60.89,
+      "ứng viên qua conf": 620,
+      "số box": 186
+    },
+    {
+      "Ảnh": "bus.jpg",
+      "Cấu hình": "one-to-one NMS-free, conf 0.25",
+      "preprocess (ms)": 2.93,
+      "ONNX inference (ms)": 24.76,
+      "postprocess (ms)": 0.26,
+      "tổng (ms)": 27.96,
+      "ứng viên qua conf": 5,
+      "số box": 5
+    },
+    {
+      "Ảnh": "bus.jpg",
+      "Cấu hình": "one-to-one NMS-free, conf 0.001",
+      "preprocess (ms)": 2.91,
+      "ONNX inference (ms)": 24.19,
+      "postprocess (ms)": 0.28,
+      "tổng (ms)": 27.38,
+      "ứng viên qua conf": 177,
+      "số box": 177
+    },
+    {
+      "Ảnh": "cảnh đông (bus.jpg ghép 3×3)",
+      "Cấu hình": "one-to-many + NMS, conf 0.25",
+      "preprocess (ms)": 6.23,
+      "ONNX inference (ms)": 33.32,
+      "postprocess (ms)": 17.76,
+      "tổng (ms)": 57.31,
+      "ứng viên qua conf": 315,
+      "số box": 41
+    },
+    {
+      "Ảnh": "cảnh đông (bus.jpg ghép 3×3)",
+      "Cấu hình": "one-to-many + NMS, conf 0.001",
+      "preprocess (ms)": 6.18,
+      "ONNX inference (ms)": 28.35,
+      "postprocess (ms)": 30.33,
+      "tổng (ms)": 64.86,
+      "ứng viên qua conf": 2199,
+      "số box": 300
+    },
+    {
+      "Ảnh": "cảnh đông (bus.jpg ghép 3×3)",
+      "Cấu hình": "one-to-one NMS-free, conf 0.25",
+      "preprocess (ms)": 3.28,
+      "ONNX inference (ms)": 23.4,
+      "postprocess (ms)": 0.26,
+      "tổng (ms)": 26.95,
+      "ứng viên qua conf": 36,
+      "số box": 36
+    },
+    {
+      "Ảnh": "cảnh đông (bus.jpg ghép 3×3)",
+      "Cấu hình": "one-to-one NMS-free, conf 0.001",
+      "preprocess (ms)": 3.27,
+      "ONNX inference (ms)": 23.35,
+      "postprocess (ms)": 0.28,
+      "tổng (ms)": 26.9,
+      "ứng viên qua conf": 300,
+      "số box": 300
+    }
+  ]
+}
